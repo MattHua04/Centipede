@@ -24,5 +24,3 @@ set_target_properties(
 
 file(COPY ${PROJECT_SOURCE_DIR}/assets
     DESTINATION "${COMMON_OUTPUT_DIR}/bin")
-file(COPY ${PROJECT_SOURCE_DIR}/fonts
-    DESTINATION "${COMMON_OUTPUT_DIR}/bin")

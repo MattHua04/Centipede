@@ -20,8 +20,8 @@ void laserBlasterInit() {
     laserTexture.loadFromImage(laserBlast);
 
     // Load the starship texture
-    if (!starShipTexture.loadFromFile("assets/StarShip.png")) {
-        printf("Failed to load texture from %s\n", "assets/StarShip.png");
+    if (!starShipTexture.loadFromFile("assets/textures/StarShip.png")) {
+        printf("Failed to load texture from %s\n", "assets/textures/StarShip.png");
     }
 
     // Initialize the player

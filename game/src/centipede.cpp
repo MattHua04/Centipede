@@ -23,7 +23,7 @@ int getSign(float value) {
 
 void centipedeInit(int length, int initialSpeed) {
     // Load head textures
-    std::vector<std::string> headFileNames = {"assets/CentipedeHead0.png", "assets/CentipedeHead1.png", "assets/CentipedeHead2.png"};
+    std::vector<std::string> headFileNames = {"assets/textures/CentipedeHead0.png", "assets/textures/CentipedeHead1.png", "assets/textures/CentipedeHead2.png"};
     for (const auto& fileName : headFileNames) {
         Texture texture;
         if (!texture.loadFromFile(fileName)) {
@@ -33,7 +33,7 @@ void centipedeInit(int length, int initialSpeed) {
     }
 
     // Load body textures
-    std::vector<std::string> bodyFileNames = {"assets/CentipedeBody0.png", "assets/CentipedeBody1.png", "assets/CentipedeBody2.png"};
+    std::vector<std::string> bodyFileNames = {"assets/textures/CentipedeBody0.png", "assets/textures/CentipedeBody1.png", "assets/textures/CentipedeBody2.png"};
     for (const auto& fileName : bodyFileNames) {
         Texture texture;
         if (!texture.loadFromFile(fileName)) {

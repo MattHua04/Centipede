@@ -227,8 +227,8 @@ int main() {
     window.create(VideoMode(windowWidth, windowHeight), "Centipede", Style::Default);
 
     // Load the github logo
-    if (!startupLogo.loadFromFile("assets/StartupLogo.png")) {
-        printf("Failed to load texture from %s\n", "assets/StartupLogo.png");
+    if (!startupLogo.loadFromFile("assets/textures/StartupLogo.png")) {
+        printf("Failed to load texture from %s\n", "assets/textures/StartupLogo.png");
         return -1;
     }
     // Scale and position the startup logo
@@ -248,8 +248,8 @@ int main() {
     window.pollEvent(event);
 
     // Load the background texture
-    if (!backgroundTexture.loadFromFile("assets/DirtBackground.png")) {
-        printf("Failed to load texture from %s\n", "assets/DirtBackground.png");
+    if (!backgroundTexture.loadFromFile("assets/textures/DirtBackground.png")) {
+        printf("Failed to load texture from %s\n", "assets/textures/DirtBackground.png");
         return -1;
     }
 
@@ -290,8 +290,8 @@ int main() {
 
     // Load the font
     Font font;
-    if (!font.loadFromFile("fonts/KOMIKAP_.ttf")) {
-        printf("Failed to load font from %s\n", "fonts/KOMIKAP_.ttf");
+    if (!font.loadFromFile("assets/fonts/KOMIKAP_.ttf")) {
+        printf("Failed to load font from %s\n", "assets/fonts/KOMIKAP_.ttf");
         return -1;
     }
 

@@ -13,7 +13,7 @@ Spider spider(0);
 
 void spiderInit(int initialSpeed) {
     // Load the spider textures
-    std::vector<std::string> spiderFileNames = {"assets/Spider0.png", "assets/Spider1.png"};
+    std::vector<std::string> spiderFileNames = {"assets/textures/Spider0.png", "assets/textures/Spider1.png"};
     for (const auto& fileName : spiderFileNames) {
         Texture texture;
         if (!texture.loadFromFile(fileName)) {

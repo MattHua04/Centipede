@@ -16,11 +16,11 @@ std::list<Mushroom> mushrooms;
 
 void mushroomInit() {
     // Load textures
-    if (!normalMushroomTexture.loadFromFile("assets/Mushroom0.png")) {
-        printf("Failed to load texture from %s\n", "assets/Mushroom0.png");
+    if (!normalMushroomTexture.loadFromFile("assets/textures/Mushroom0.png")) {
+        printf("Failed to load texture from %s\n", "assets/textures/Mushroom0.png");
     }
-    if (!damagedMushroomTexture.loadFromFile("assets/Mushroom1.png")) {
-        printf("Failed to load texture from %s\n", "assets/Mushroom1.png");
+    if (!damagedMushroomTexture.loadFromFile("assets/textures/Mushroom1.png")) {
+        printf("Failed to load texture from %s\n", "assets/textures/Mushroom1.png");
     }
 }
 
