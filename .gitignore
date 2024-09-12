@@ -1,3 +1,5 @@
 SFML
-build
+build/*
+!build/output
+build/output/*
 !build/output/bin
