@@ -5,6 +5,6 @@
 
 <p align="center">
   <a href="https://youtu.be/T7YOUUmW22Y">
-     <img src="https://github.com/user-attachments/assets/b52f053c-110a-49a9-af80-7c595059ab37" alt="Centipede Game Demo" width="100%">
+     <img src="https://github.com/user-attachments/assets/d573c067-9fc6-40b1-904d-63a938964835" alt="Centipede Game Demo" width="100%">
   </a>
 </p>
